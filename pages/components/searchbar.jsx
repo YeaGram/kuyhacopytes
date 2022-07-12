@@ -14,7 +14,7 @@ export default function SearchBar() {
                   name="searchbar"
                   className="border-2 flex-1 max-w-[100px] bg-slate-300 h-full px-4 text-white border-slate-400 font-medium"
                >
-                  Submit
+                  Cari!
                </button>
             </form>
          </div>

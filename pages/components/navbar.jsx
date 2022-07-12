@@ -7,9 +7,9 @@ export default function Navbar() {
                SoftAing
             </a>
          </span>
-         <div className="w-1/4 max-w-sm flex justify-evenly font-bold">
+         <div className="sm:w-1/4 flex justify-evenly font-bold">
             <a href="#" className="flex items-center hover:text-teal-500">
-               Buy Me A Coffe :D
+               <span className="whitespace-nowrap">Buy Me A Coffe :D</span>
                <span className="text-2xl mx-2">
                   <GiCoffeeCup />
                </span>

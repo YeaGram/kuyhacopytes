@@ -11,3 +11,32 @@
 #kategori.kateMati {
    @apply top-full bottom-0;
 }
+
+#hamburgerBtn {
+   @apply relative h-[20px] w-6 origin-center  justify-between transition-all duration-500 ease-out;
+}
+#hamburgerBtn.hamburgerActive {
+   @apply rotate-180 drop-shadow-lg;
+}
+#hamburgerBtn.hamburgerActive span:first-child {
+   @apply rotate-45 top-1/2 -translate-y-1/2 bg-red-600;
+}
+#hamburgerBtn.hamburgerActive span:nth-child(2) {
+   @apply scale-0;
+}
+#hamburgerBtn.hamburgerActive span:last-child {
+   @apply -rotate-45 bottom-1/2 translate-y-1/2 bg-rose-500;
+}
+
+#hamburgerBtn span {
+   @apply block w-6 h-1 bg-black absolute origin-center transition-all;
+}
+#hamburgerBtn span:first-child {
+   @apply top-0;
+}
+#hamburgerBtn span:nth-child(2) {
+   @apply top-1/2 -translate-y-1/2;
+}
+#hamburgerBtn span:last-child {
+   @apply bottom-0;
+}

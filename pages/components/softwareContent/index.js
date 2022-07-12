@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Header from "./components/header";
-import Sidebar from "./components/sidebar";
-import Content from "./components/content";
-import Navbar from "./components/navbar";
+import Header from "../header";
+import Sidebar from "../sidebar";
+import Content from "./softContent";
+import Navbar from "../navbar";
 import { useState } from "react";
-import HamburgerButton from "./components/hamburger";
+import HamburgerButton from "../hamburger";
 
 export default function Home() {
    const [menu, setMenu] = useState(true);

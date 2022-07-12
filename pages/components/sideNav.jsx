@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { MdExpandMore } from "react-icons/md";
+import Link from "next/link";
 export default function SideNavbar(props) {
    const [toggle, setToggle] = useState(true);
    const handleToggler = () => {
       toggle ? setToggle(false) : setToggle(true);
-      console.log(toggle);
+      // console.log(toggle);
    };
    return (
       <div className="my-1 ml-3 relative overflow-hidden h-full w-full">
@@ -33,9 +34,15 @@ export default function SideNavbar(props) {
                className={`transition-all flex flex-col indent-4 text-gray-400`}
                id="kategori"
             >
-               <a href="#">{props.kateOne}</a>
-               <a href="#">{props.kateTwo}</a>
-               <a href="#">{props.kateThree}</a>
+               <Link href={props.link1}>
+                  <p className="cursor-pointer">{props.kateOne}</p>
+               </Link>
+               <Link href={props.link2}>
+                  <p className="cursor-pointer">{props.kateTwo}</p>
+               </Link>
+               <Link href={props.link3}>
+                  <p className="cursor-pointer">{props.kateThree}</p>
+               </Link>
             </div>
          </div>
       </div>
