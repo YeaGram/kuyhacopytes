@@ -4,7 +4,7 @@ export default function SearchBar() {
          <div className="">
             <form
                action="/components"
-               method="post"
+               method="get"
                id="seachbar"
                className="h-10 flex"
             >
