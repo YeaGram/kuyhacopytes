@@ -14,27 +14,27 @@ export default function Sidebar() {
             kateOne="trending1"
             kateTwo="trending2"
             kateThree="trending3"
-            link1="/components/softwareContent"
-            link2="/components/softwareContent"
-            link3="/components/softwareContent"
+            linkOne="/components/softwareContent"
+            linkTwo="/components/softwareContent"
+            linkThree="/components/softwareContent"
          />
          <SideNavbar
             title="Category"
             kateOne="Operating System"
             kateTwo="Multimedia"
             kateThree="Editing"
-            link1="/components/softwareContent"
-            link2="/components/softwareContent"
-            link3="/components/softwareContent"
+            linkOne="/components/softwareContent"
+            linkTwo="/components/softwareContent"
+            linkThree="/components/softwareContent"
          />
          <SideNavbar
             title="Terbaru"
             kateOne="terbaru1"
             kateTwo="terbaru2"
             kateThree="terbaru3"
-            link1="/components/softwareContent"
-            link2="/components/softwareContent"
-            link3="/components/softwareContent"
+            linkOne="/components/softwareContent"
+            linkTwo="/components/softwareContent"
+            linkThree="/components/softwareContent"
          />
 
          <Link href="/about">

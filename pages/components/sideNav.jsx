@@ -34,14 +34,14 @@ export default function SideNavbar(props) {
                className={`transition-all flex flex-col indent-4 text-gray-400`}
                id="kategori"
             >
-               <Link href={props.link1}>
-                  <p className="cursor-pointer">{props.kateOne}</p>
+               <Link href="/components/softwareContent">
+                  <a className="cursor-pointer">{props.kateOne}</a>
                </Link>
-               <Link href={props.link2}>
-                  <p className="cursor-pointer">{props.kateTwo}</p>
+               <Link href="/components/softwareContent">
+                  <a className="cursor-pointer">{props.kateTwo}</a>
                </Link>
-               <Link href={props.link3}>
-                  <p className="cursor-pointer">{props.kateThree}</p>
+               <Link href="/components/softwareContent">
+                  <a className="cursor-pointer">{props.kateThree}</a>
                </Link>
             </div>
          </div>
