@@ -2,7 +2,12 @@ export default function SearchBar() {
    return (
       <>
          <div className="">
-            <form action="#" method="post" id="seachbar" className="h-10 flex">
+            <form
+               action="/components"
+               method="post"
+               id="seachbar"
+               className="h-10 flex"
+            >
                <input
                   type="text"
                   name="search"
